@@ -1,0 +1,9 @@
+{
+  "name": "@local/dsh-web-url-helper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "临时工具：把 dsh web 的带 token 地址取出来（dsh_web_url 工具）。",
+  "exports": { ".": "./index.js" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

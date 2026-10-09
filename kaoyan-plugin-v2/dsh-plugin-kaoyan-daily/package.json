@@ -1,0 +1,14 @@
+{
+  "name": "@local/dsh-plugin-kaoyan-daily",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "kaoyan-daily v2 界面层：Host 半（kaoyanDaily service + kaoyan_daily 工具）。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

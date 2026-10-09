@@ -1,0 +1,3 @@
+- insert:
+    - id: web-url-helper
+      name: '@local/dsh-web-url-helper'

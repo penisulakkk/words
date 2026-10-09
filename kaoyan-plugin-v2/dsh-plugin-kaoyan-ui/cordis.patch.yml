@@ -1,0 +1,3 @@
+- insert:
+    - id: kaoyan-daily-ui
+      name: '@local/dsh-plugin-kaoyan-ui'

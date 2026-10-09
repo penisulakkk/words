@@ -1,0 +1,15 @@
+{
+  "name": "@local/dsh-plugin-kaoyan-ui",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "kaoyan-daily v2 界面层：Client 半（学习答题 / 纠错评估 / 记忆复习三板块）。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web" }
+  }
+}
